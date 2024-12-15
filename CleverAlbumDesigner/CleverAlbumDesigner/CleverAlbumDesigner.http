@@ -1,6 +1,0 @@
-@CleverAlbumDesigner_HostAddress = http://localhost:5249
-
-GET {{CleverAlbumDesigner_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
