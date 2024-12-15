@@ -4,12 +4,17 @@ document.addEventListener("DOMContentLoaded", function () {
     const fileInput = document.getElementById("fileInput");
     const photosContainer = document.getElementById("photosContainer");
     const errorContainer = document.getElementById("errorContainer");
-    const apiBaseUrl = "https://localhost:5001/api"; // Url Base
+    const apiBaseUrl = "http://ec2-13-48-55-131.eu-north-1.compute.amazonaws.com/api";//Url Base
     let sessionId = sessionStorage.getItem("SessionId");
     if (!sessionId) {
         // Generate a new SessionId and store it in localStorage
-        sessionId = crypto.randomUUID();
+        sessionId = generateSessionId();
         sessionStorage.setItem("SessionId", sessionId);
+    }
+    function generateSessionId() {
+        const timestamp = Date.now().toString(36); // Parte basada en el tiempo
+        const randomPart = Math.random().toString(36).substring(2, 15); // Parte aleatoria
+        return `${timestamp}-${randomPart}`;
     }
 
     // Upload photos
