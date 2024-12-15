@@ -1,0 +1,28 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/CleverAlbumDesigner/index.13mcanxumm.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"13mcanxumm"},{"Name":"integrity","Value":"sha256-M2\u002BHmFnNFJndZZHY/90UzqRE0uzva3YPFhudaRRnD4I="},{"Name":"label","Value":"_content/CleverAlbumDesigner/index.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5501"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022M2\u002BHmFnNFJndZZHY/90UzqRE0uzva3YPFhudaRRnD4I=\u0022"},{"Name":"Last-Modified","Value":"Sun, 15 Dec 2024 00:12:57 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CleverAlbumDesigner/index.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-M2\u002BHmFnNFJndZZHY/90UzqRE0uzva3YPFhudaRRnD4I="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5501"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022M2\u002BHmFnNFJndZZHY/90UzqRE0uzva3YPFhudaRRnD4I=\u0022"},{"Name":"Last-Modified","Value":"Sun, 15 Dec 2024 00:12:57 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CleverAlbumDesigner/script.jd8xr9o82x.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\script.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"jd8xr9o82x"},{"Name":"integrity","Value":"sha256-WRjjfLevqoOAGblpLRV7Bb4VjA3RtqC/Tz8E6q5fIgw="},{"Name":"label","Value":"_content/CleverAlbumDesigner/script.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"14827"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022WRjjfLevqoOAGblpLRV7Bb4VjA3RtqC/Tz8E6q5fIgw=\u0022"},{"Name":"Last-Modified","Value":"Sun, 15 Dec 2024 00:28:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CleverAlbumDesigner/script.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\script.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-WRjjfLevqoOAGblpLRV7Bb4VjA3RtqC/Tz8E6q5fIgw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"14827"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022WRjjfLevqoOAGblpLRV7Bb4VjA3RtqC/Tz8E6q5fIgw=\u0022"},{"Name":"Last-Modified","Value":"Sun, 15 Dec 2024 00:28:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>
