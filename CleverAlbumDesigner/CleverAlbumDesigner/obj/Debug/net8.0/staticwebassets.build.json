@@ -1,0 +1,228 @@
+{
+  "Version": 1,
+  "Hash": "qG33lgWtW1h4fShS0tDjNvSPmH38A0wVbxLoJCQHSsQ=",
+  "Source": "CleverAlbumDesigner",
+  "BasePath": "_content/CleverAlbumDesigner",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "CleverAlbumDesigner\\wwwroot",
+      "Source": "CleverAlbumDesigner",
+      "ContentRoot": "C:\\Users\\juanm\\source\\repos\\CleverAlbumDesigner\\CleverAlbumDesigner\\wwwroot\\",
+      "BasePath": "_content/CleverAlbumDesigner",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\juanm\\source\\repos\\CleverAlbumDesigner\\CleverAlbumDesigner\\wwwroot\\index.html",
+      "SourceId": "CleverAlbumDesigner",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\juanm\\source\\repos\\CleverAlbumDesigner\\CleverAlbumDesigner\\wwwroot\\",
+      "BasePath": "_content/CleverAlbumDesigner",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "13mcanxumm",
+      "Integrity": "M2+HmFnNFJndZZHY/90UzqRE0uzva3YPFhudaRRnD4I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\juanm\\source\\repos\\CleverAlbumDesigner\\CleverAlbumDesigner\\wwwroot\\script.js",
+      "SourceId": "CleverAlbumDesigner",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\juanm\\source\\repos\\CleverAlbumDesigner\\CleverAlbumDesigner\\wwwroot\\",
+      "BasePath": "_content/CleverAlbumDesigner",
+      "RelativePath": "script#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jd8xr9o82x",
+      "Integrity": "WRjjfLevqoOAGblpLRV7Bb4VjA3RtqC/Tz8E6q5fIgw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\script.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "index.13mcanxumm.html",
+      "AssetFile": "C:\\Users\\juanm\\source\\repos\\CleverAlbumDesigner\\CleverAlbumDesigner\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5501"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"M2+HmFnNFJndZZHY/90UzqRE0uzva3YPFhudaRRnD4I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Dec 2024 00:12:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "13mcanxumm"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-M2+HmFnNFJndZZHY/90UzqRE0uzva3YPFhudaRRnD4I="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\juanm\\source\\repos\\CleverAlbumDesigner\\CleverAlbumDesigner\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5501"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"M2+HmFnNFJndZZHY/90UzqRE0uzva3YPFhudaRRnD4I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Dec 2024 00:12:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-M2+HmFnNFJndZZHY/90UzqRE0uzva3YPFhudaRRnD4I="
+        }
+      ]
+    },
+    {
+      "Route": "script.jd8xr9o82x.js",
+      "AssetFile": "C:\\Users\\juanm\\source\\repos\\CleverAlbumDesigner\\CleverAlbumDesigner\\wwwroot\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14827"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WRjjfLevqoOAGblpLRV7Bb4VjA3RtqC/Tz8E6q5fIgw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Dec 2024 00:28:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jd8xr9o82x"
+        },
+        {
+          "Name": "label",
+          "Value": "script.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WRjjfLevqoOAGblpLRV7Bb4VjA3RtqC/Tz8E6q5fIgw="
+        }
+      ]
+    },
+    {
+      "Route": "script.js",
+      "AssetFile": "C:\\Users\\juanm\\source\\repos\\CleverAlbumDesigner\\CleverAlbumDesigner\\wwwroot\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14827"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WRjjfLevqoOAGblpLRV7Bb4VjA3RtqC/Tz8E6q5fIgw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Dec 2024 00:28:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WRjjfLevqoOAGblpLRV7Bb4VjA3RtqC/Tz8E6q5fIgw="
+        }
+      ]
+    }
+  ]
+}
