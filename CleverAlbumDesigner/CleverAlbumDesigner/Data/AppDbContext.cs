@@ -30,13 +30,13 @@ namespace CleverAlbumDesigner.Data
                 .HasForeignKey(tc => tc.ColorId)
                 .OnDelete(DeleteBehavior.Restrict);
 
-            // GUIDs específicos para Themes
+            // Specific Guid for Themes
             var nostalgiaId = Guid.Parse("f25a5b4e-7b63-4c2a-8a14-c97c5b68d034");
             var loveId = Guid.Parse("bb56a798-bcb2-49af-a759-7df8c4f66b31");
             var natureId = Guid.Parse("c4679ee5-299d-4bd5-8dbd-7cb8b6dc2384");
             var adventureId = Guid.Parse("4a39c839-026d-489d-83cf-8b9c8740fcde");
 
-            // Inserción de Themes
+            // Theme insertion
             modelBuilder.Entity<Theme>().HasData(
                 new Theme { ThemeId = nostalgiaId, Name = "Nostalgia" },
                 new Theme { ThemeId = loveId, Name = "Love" },
@@ -44,7 +44,7 @@ namespace CleverAlbumDesigner.Data
                 new Theme { ThemeId = adventureId, Name = "Adventure" }
             );
 
-            // GUIDs específicos para Colors
+            // Specific Guid for Colors
             var sepiaId = Guid.Parse("a47d84a1-b342-4d9e-9e2a-3f89e23a539a");
             var blueGrayId = Guid.Parse("bb74e9cc-e7c8-45aa-8461-3d54e69d86e1");
             var palePinkId = Guid.Parse("af68ec32-2c68-4f84-bc8f-038fda0e6c7e");
@@ -58,7 +58,7 @@ namespace CleverAlbumDesigner.Data
             var deepBlueId = Guid.Parse("8a24c643-367e-47da-9e2b-5a6b64f73587");
             var reddishBrownId = Guid.Parse("417bdb2b-e534-4925-b7c5-18a7bc89e752");
 
-            // Inserción de Colors
+            // Color insertion
             modelBuilder.Entity<Color>().HasData(
                 new Color { ColorId = sepiaId, Name = "Sepia", RgbaCode = "112,66,20" },
                 new Color { ColorId = blueGrayId, Name = "Blue-gray", RgbaCode = "96,123,139" },
@@ -87,7 +87,7 @@ namespace CleverAlbumDesigner.Data
             var adventureIdColor2 = Guid.Parse("a4d732ee-cbd5-47df-98b1-2a65f32b1ac3");
             var adventureIdColor3 = Guid.Parse("0f4edb89-3d2a-46f6-94d9-e11f0a3b9ca2");
 
-            // Inserción de ThemeColors
+            //ThemeColor insertion (junction table)
             modelBuilder.Entity<ThemeColor>().HasData(
                 // Nostalgia
                 new ThemeColor { ThemeColorId = nostalgiaIdColor1, ThemeId = nostalgiaId, ColorId = sepiaId },
